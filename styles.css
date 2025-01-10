@@ -271,7 +271,7 @@ footer p {
   color: #fff;
 }
 
-/* Media Queries */
+/* Media Queries 
 @media (max-width: 480px) {
   header h1 {
     font-size: 20px;
@@ -284,4 +284,28 @@ footer p {
   main h2 {
     font-size: 20px;
   }
+}*/
+/* Estilo para pantallas pequeñas (celulares) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  nav .menu {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  .container {
+    padding: 15px;
+    margin: 0 auto;
+  }
 }
+
+
