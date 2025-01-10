@@ -237,9 +237,9 @@ table td .btn {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 90%; /* En lugar de 800px */
   margin: 20px auto;
-  padding: 20px;
+  padding: 1rem; /* En lugar de 20px */
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
