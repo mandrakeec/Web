@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ver Requerimientos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>Sistema Helpdesk</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="dashboard.html">Inicio</a></li>
+        <li><a href="registrar_requerimiento.html">Registrar Requerimiento</a></li>
+        <li><a href="ver_requerimientos.html">Ver Requerimientos</a></li>
+        <li><a href="reportes.html">Reportes</a></li>
+        <li><a href="index.html">Cerrar Sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <h2>Requerimientos Registrados</h2>
+    <div class="actions">
+      <button id="vaciarRegistros" class="btn btn-danger">Vaciar Registros</button>
+    </div>
+    <div class="table-container">
+      <table id="requerimientosTable">
+        <thead>
+          <tr>
+            <th>Usuario</th>
+            <th>Departamento</th>
+            <th>Turno</th>
+            <th>Técnico</th>
+            <th>Medio</th>
+            <th>Fecha Inicio</th>
+            <th>Fecha Fin</th>
+            <th>Ubicación</th>
+            <th>Problema</th>
+            <th>Solución</th>
+            <th>Tipo Problema</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="requerimientosTableBody">
+          <!-- Aquí se cargarán dinámicamente los registros -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Sistema Helpdesk. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Archivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
