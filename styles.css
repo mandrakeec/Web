@@ -161,7 +161,7 @@ form button:hover {
 
 /* Tabla */
 .table-container {
-  overflow-x: auto;
+  overflow-x: auto; /* Permite el desplazamiento horizontal */
   margin-top: 15px;
   border: 1px solid #ddd;
   background-color: white;
@@ -240,6 +240,7 @@ table td .btn {
   max-width: 90%; /* En lugar de 800px */
   margin: 20px auto;
   padding: 1rem; /* En lugar de 20px */
+  width: 50%;
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -264,28 +265,16 @@ footer {
   text-align: center;
   bottom: 0;
   width: 100%;
+
 }
 
 footer p {
   font-size: 14px;
   color: #fff;
+  margin: 0;
 }
 
-/* Media Queries 
-@media (max-width: 480px) {
-  header h1 {
-    font-size: 20px;
-  }
 
-  nav .menu li a {
-    font-size: 14px;
-  }
-
-  main h2 {
-    font-size: 20px;
-  }
-}*/
-/* Estilo para pantallas pequeñas (celulares) */
 @media (max-width: 768px) {
   body {
     font-size: 14px;
@@ -307,5 +296,4 @@ footer p {
     margin: 0 auto;
   }
 }
-
 
